@@ -7,7 +7,7 @@ function generateHomePageContent(){
     console.log(homePageMainContent);
 
     // add content/styling
-    homePageMainContent.innerHTML= "This is test content. Nay, this IS content. Indeed, one might think that just becuase they say this or they say that that this isn't VALUE. Let me teach you how the world work, kid- entertainment and information are one and the same in the 21st century. Indeed, for better or for worse! You would be wise to remember that, my child. Now go... I have to read a Murakami novel....";
+    homePageMainContent.innerHTML= "This is test content. Nay, this IS content. Indeed, one might think that just becuase they say this or they say that that this isn't VALUE. Let me teach you how the world works, kid- entertainment and information are one and the same in the 21st century. Indeed, for better or for worse! You would be wise to remember that, my child. Now go... I have to read a Murakami novel....";
     homePageMainContent.id="contentSection";
     homePageMainContent.style.backgroundColor="#00308F";
     homePageMainContent.style.color="white";
