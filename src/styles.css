@@ -1,3 +1,6 @@
+*{
+    margin: 0px;
+}
 img{
     width: 100vw;
 }
@@ -8,6 +11,7 @@ button{
 nav{
     display: flex;
     justify-content: center;
+    background-color: grey;
 }
 
 /* #contentSection{

@@ -4,7 +4,9 @@ import { generateMenuPage } from "./menu.js";
 setWaifuBackground();
 generateHomePageContent();
 
-// grab Menu tab
+// grab tabs
+const homeTab = document.querySelectorAll("button")[0]
 const menuTab = document.querySelectorAll("button")[1];
 
 menuTab.addEventListener("click",generateMenuPage)
+homeTab.addEventListener("click",generateHomePageContent)
