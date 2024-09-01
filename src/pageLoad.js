@@ -1,3 +1,5 @@
+
+function setWaifuBackground(){
 // grab div#content
 const mainContent = document.getElementById("content");
 console.log(mainContent);
@@ -6,3 +8,8 @@ console.log(mainContent);
 let waifuBackground = document.createElement("img");
 waifuBackground.src = "anime-waifu.jpg";
 mainContent.appendChild(waifuBackground);
+}
+
+// setWaifuBackground();
+
+export {setWaifuBackground};

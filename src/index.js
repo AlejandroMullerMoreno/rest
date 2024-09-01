@@ -1,1 +1,2 @@
-console.log("I am a concept!");
+import { setWaifuBackground } from "./pageLoad.js";
+setWaifuBackground();
