@@ -1,3 +1,11 @@
 img{
     width: 100vw;
 }
+button{
+    width: 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
